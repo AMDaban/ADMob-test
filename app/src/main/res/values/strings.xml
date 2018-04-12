@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ADMob Test</string>
+    <string name="show_ad">Show Ad</string>
+    <string name="request_interstitial_ad">Request Interstitial Ad</string>
 </resources>
