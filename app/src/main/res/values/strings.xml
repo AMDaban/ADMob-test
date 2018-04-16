@@ -2,4 +2,8 @@
     <string name="app_name">ADMob Test</string>
     <string name="show_ad">Show Ad</string>
     <string name="request_interstitial_ad">Request Interstitial Ad</string>
+    <string name="rewarded_video">Request Rewarded Video</string>
+    <string name="show_rewarded_video_ad">Show Rewarded Video Ad</string>
+    <string name="show_interstitial_video_ad">Show Interstitial Video Ad</string>
+    <string name="request_interstitial_video_ad">Request Interstitial Video Ad</string>
 </resources>

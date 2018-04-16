@@ -21,8 +21,7 @@
         android:layout_weight="1"
         tools:ignore="Suspicious0dp,UselessParent">
 
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -30,6 +29,7 @@
                 android:id="@+id/btnShowAd"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:text="@string/show_ad" />
 
@@ -54,6 +54,37 @@
 
             </LinearLayout>
 
+            <Button
+                android:id="@+id/btnShowInterstitialVideo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llRequestAd"
+                android:layout_centerHorizontal="true"
+                android:text="@string/show_interstitial_video_ad" />
+
+            <Button
+                android:id="@+id/btnInterstitialVideoAd"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnShowInterstitialVideo"
+                android:layout_centerHorizontal="true"
+                android:text="@string/request_interstitial_video_ad" />
+
+            <Button
+                android:id="@+id/btnShowRewarded"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnInterstitialVideoAd"
+                android:layout_centerHorizontal="true"
+                android:text="@string/show_rewarded_video_ad" />
+
+            <Button
+                android:id="@+id/btnRewarded"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnShowRewarded"
+                android:layout_centerHorizontal="true"
+                android:text="@string/rewarded_video" />
 
         </RelativeLayout>
 
